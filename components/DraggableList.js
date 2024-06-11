@@ -23,7 +23,7 @@ const DraggableList = () => {
     e.dataTransfer.setData('text/plain', position);
 
     const img = new Image();
-    img.src = 'data:image/png';
+    img.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAgEBAY2uP6MAAAAASUVORK5CYII=';
     e.dataTransfer.setDragImage(img, 0, 0);
   };
 
